@@ -155,7 +155,7 @@ class ChatScreenState extends State<ChatScreen> {
       var response = await http.get(uri);
 
       final pred = json.decode(response.body);
-      if (pred >= 30) {
+      if (pred >= 0.3) {
         return 'blocked';
       } else {
         return text;
