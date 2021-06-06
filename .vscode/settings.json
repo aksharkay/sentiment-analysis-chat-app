@@ -1,0 +1,9 @@
+{
+    "[python]": {
+        "editor.wordBasedSuggestions": false
+    },
+    "python.analysis.completeFunctionParens": true,
+    "python.analysis.extraPaths": [
+        "C:\\Users\\aksha\\anaconda3\\Lib\\site-packages\\sklearn\\feature_extraction\\text.py"
+    ]
+}

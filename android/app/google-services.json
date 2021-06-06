@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "12255467023",
+    "firebase_url": "https://sentiment-analysis-app-63886-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "sentiment-analysis-app-63886",
+    "storage_bucket": "sentiment-analysis-app-63886.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:12255467023:android:9852c9027bf206e1f3f57a",
+        "android_client_info": {
+          "package_name": "com.example.sentiment_analysis_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "12255467023-igdjll5js72f5jemc0ht2gnmonk9nois.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBsHG6tBb1yP4aVNVBKvVE00RzTqoXewns"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "12255467023-igdjll5js72f5jemc0ht2gnmonk9nois.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
