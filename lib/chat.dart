@@ -147,7 +147,7 @@ class ChatScreenState extends State<ChatScreen> {
 
   Future<String> predictText(String text) async {
     try {
-      String endPoint = 'http://127.0.0.1:5000';
+      String endPoint = 'https://sentiment-analysis-tarp.herokuapp.com';
       String api = '/predict';
       var params = {'text': text};
       var uri = Uri.https(endPoint, api, params);
