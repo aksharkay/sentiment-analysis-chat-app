@@ -147,7 +147,7 @@ class ChatScreenState extends State<ChatScreen> {
 
   Future<String> predictText(String text) async {
     try {
-      String endPoint = 'https://sentiment-analysis-tarp.herokuapp.com';
+      String endPoint = 'sentiment-analysis-tarp.herokuapp.com';
       String api = '/predict';
       var params = {'text': text};
       var uri = Uri.https(endPoint, api, params);
@@ -155,6 +155,7 @@ class ChatScreenState extends State<ChatScreen> {
       var response = await http.get(uri);
 
       final pred = json.decode(response.body);
+      print("Pred" + pred);
       if (pred >= 0.3) {
         return 'blocked';
       } else {
